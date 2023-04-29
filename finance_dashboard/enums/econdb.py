@@ -1,0 +1,12 @@
+from enum import Enum
+
+class EconDBSeries(str, Enum):
+    REAL_GDP = "RGDPUK"
+    GDP = "GDPUK"
+    PUBLIC_CONSUMPTION = "RPUCUK"
+    CPI = "CPIUK"
+    UNEMPLOYMENT = "URATEUK"
+    CONSUMER_CONFIDENCE = "CONFUK"
+    GOVT_BOND_YIELD_10Y = "Y10YDUK"
+    GOVT_BOND_YIELD_3M = "M3YDUK"
+    BOE_BASE_RATE = "POLIRUK"
